@@ -18,7 +18,7 @@ In the content parsing stage, OpnRank parses the content from various sources in
    1. (Optional) Send a request to the URL (if content is from a URL)
    2. Receives the data from the URL (if URL allows for scraping), or the local file (currently .pdf and .txt formats are supported.)
    3. Parses the data such that only the text from the content remains.
-   4. Writes the text data into a .txt f
+   4. Writes the text data into a .txt file for futher analysis. 
 
 Although it is simple, modules can be very well added to it for different purposes (E.g., adding support for other file formats)
 
@@ -41,7 +41,7 @@ Example:
 
 Let's say you are making a module abcd, that has 3 functions: f1(), f2(), f3()
 
-You should create the main file named abcd.py in the modules folder, and another subfolder in the modules/analysis folder named abcd, that stores other scripts that you may use. Let's name these contents in the subfolder as fl1.py, fl2.py, fl3.py
+You should create the main file named abcd.py in the modules folder, and another subfolder in the modules folder named abcd, that stores other scripts that you may use. Let's name these contents in the subfolder as fl1.py, fl2.py, fl3.py
 
 Then, abcd.py should contain code like:
 
