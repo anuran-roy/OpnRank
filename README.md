@@ -41,7 +41,7 @@ Example:
 
 Let's say you are making a module abcd, that has 3 functions: f1(), f2(), f3()
 
-You should create the main file named abcd.py in the modules/analysis folder, and another subfolder in the modules/analysis folder named abcd, that stores other scripts that you may use. Let's name these contents in the subfolder as fl1.py, fl2.py, fl3.py
+You should create the main file named abcd.py in the modules folder, and another subfolder in the modules/analysis folder named abcd, that stores other scripts that you may use. Let's name these contents in the subfolder as fl1.py, fl2.py, fl3.py
 
 Then, abcd.py should contain code like:
 
