@@ -15,10 +15,10 @@ OpnRank consists of broadly 3 stages in its workflow:
 
 In the content parsing stage, OpnRank parses the content from various sources into a readable format, and make it usable for analysis. Nothing much is involved here. But for the sake of clarity, here's what it does:
 
-    (Optional) Send a request to the URL (if content is from a URL)
-    Receives the data from the URL (if URL allows for scraping), or the local file (currently .pdf and .txt formats are supported.)
-    Parses the data such that only the text from the content remains.
-    Writes the text data into a .txt f
+   1. (Optional) Send a request to the URL (if content is from a URL)
+   2. Receives the data from the URL (if URL allows for scraping), or the local file (currently .pdf and .txt formats are supported.)
+   3. Parses the data such that only the text from the content remains.
+   4. Writes the text data into a .txt f
 
 Although it is simple, modules can be very well added to it for different purposes (E.g., adding support for other file formats)
 
