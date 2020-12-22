@@ -45,9 +45,9 @@ You should create the main file named abcd.py in the modules/analysis folder, an
 
 Then, abcd.py should contain code like:
 
-    from abcd import f1
-    from abcd import f2
-    from abcd import f3
+    from abcd import fl1
+    from abcd import fl2
+    from abcd import fl3
     
     def f1():
       %your code
